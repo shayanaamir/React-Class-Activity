@@ -1,4 +1,7 @@
-// Create and export javascript object list called users
+// List of 5 individuals with their First name, Last name,
+// username, school, email, iamge, and class level.
+
+// For the image we are generating 200x200 images.
 export const users = [
     {
       username: 'shayanaamir',
