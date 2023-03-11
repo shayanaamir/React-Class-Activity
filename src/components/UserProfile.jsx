@@ -16,7 +16,6 @@ function UserProfile({ user }) {
         <li><strong>Class Level:</strong> <span style={{ color: user.classLevel === 'Freshmen' ? 'green' : 'black' }}>{user.classLevel} </span></li>
 
         <li><strong>School:</strong> {user.school} </li>
-        <li><strong>Username:</strong> {user.username} </li>
         <li><strong>Email:</strong> {user.email} </li>
         </ul>
       <hr />
